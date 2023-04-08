@@ -22,10 +22,9 @@ use {'cristianoliveira/snipgpt.nvim', run = 'npm i snipgpt -g'}
 
 The following commands are exposed by the plugin:
 
-| Command                                | Usage                                                        |
-| -------------------------------------- | ------------------------------------------------------------ |
-| `:Snipgpt [request prompt]`            | Makes a generic snippet request to snipgpt                   |
-| `:SnipgptForFiletype [request prompt]` | Makes a request and include the current filetype for context |
+| Command                     | Usage                                      |
+| --------------------------- | ------------------------------------------ |
+| `:Snipgpt [request prompt]` | Makes a generic snippet request to snipgpt |
 
 ## License
 

@@ -1,6 +1,9 @@
 local M = {}
 
-M.Snipgpt = function(request)
+M.Snipgpt = function(prompt)
+  local filetype = vim.bo.filetype;
+  local request = filetype .. ":" .. prompt
+
   local command = "snipgpt"
   local output = vim.fn.system(command, request)
 
@@ -11,13 +14,6 @@ M.Snipgpt = function(request)
 
   local lines = vim.split(output, "\n")
   vim.api.nvim_put(lines, "", true, true)
-end
-
-M.SnipgptForFiletype =function (value)
-  local filetype = vim.bo.filetype;
-  local request = filetype .. ":" .. value
-
-  M.Snipgpt(request)
 end
 
 return M
