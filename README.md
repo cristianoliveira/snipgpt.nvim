@@ -1,6 +1,6 @@
 # snipgpt.nvim
 
-A vim plugin for requesting snippets to snipgpt cli.
+A vim plugin for requesting snippets to [snipgpt cli](https://github.com/cristianoliveira/snipgpt).
 
 ## Installation
 
