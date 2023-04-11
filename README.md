@@ -18,11 +18,11 @@ Plugin 'cristianoliveira/snipgpt.nvim', { 'do': 'npm i snipgpt -g' }
 use { 'cristianoliveira/snipgpt.nvim', run = 'npm i snipgpt -g' }
 ```
 
-## API:
+## API
 
 The following commands are exposed by the plugin:
 
-| h Command                   | Usage                                      |
+| Command                   | Usage                                      |
 | --------------------------- | ------------------------------------------ |
 | `:Snipgpt [request prompt]` | Makes a generic snippet request to snipgpt |
 
